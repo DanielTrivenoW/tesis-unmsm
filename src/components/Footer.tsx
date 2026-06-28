@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 mb-8">
             <div className="text-center sm:text-left">
               <div className="flex items-center justify-center sm:justify-start gap-3 mb-4">
-                <img src="public/fondo-editorial-unmsm.png" alt="Logo" className="w-10 h-10" />
+                <img src={`${import.meta.env.BASE_URL}fondo-editorial-unmsm.png`} alt="Logo" className="w-10 h-10" />
                 <div>
                   <p className="font-bold text-sm">UNMSM</p>
                   <p className="text-xs text-blue-200">Decana de América</p>

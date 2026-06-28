@@ -5,7 +5,7 @@ const Header = () => {
         <div className="flex items-center justify-between py-3">
           <a href="https://www.unmsm.edu.pe" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:opacity-80 transition">
             <div className="w-12 h-12 sm:w-14 sm:h-14 flex items-center justify-center flex-shrink-0">
-              <img src="public/images.jpg" alt="Logo UNMSM" className="h-12  flex items-center justify-center flex-shrink-0" />
+              <img src={`${import.meta.env.BASE_URL}images.jpg`} alt="Logo UNMSM" className="h-12  flex items-center justify-center flex-shrink-0" />
             </div>
             <div className="">
               <h1 className="text-sm sm:text-base font-bold text-[#003366] leading-tight">
