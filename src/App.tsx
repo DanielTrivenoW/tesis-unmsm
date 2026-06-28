@@ -24,7 +24,7 @@ const breadcrumbItems = [
   { label: thesisData.title },
 ]
 
-const pdfUrl = 'public/Tesis Bachiller Triveno Ruffner Daniel.pdf'
+const pdfUrl = 'public/tesis.pdf'
 
 function App() {
   return (
