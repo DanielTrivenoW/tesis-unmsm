@@ -24,7 +24,7 @@ const breadcrumbItems = [
   { label: thesisData.title },
 ]
 
-const pdfUrl = `${import.meta.env.BASE_URL}Tesis Bachiller Triveno Ruffner Daniel.pdf`
+const pdfUrl = `${import.meta.env.BASE_URL}tesis.pdf`
 
 function App() {
   return (
