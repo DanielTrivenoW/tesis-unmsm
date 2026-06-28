@@ -24,7 +24,7 @@ const breadcrumbItems = [
   { label: thesisData.title },
 ]
 
-const pdfUrl = "public/tesis.pdf"
+const pdfUrl = `${import.meta.env.BASE_URL}tesis.pdf`
 
 function App() {
   return (
